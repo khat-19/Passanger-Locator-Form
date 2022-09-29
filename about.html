@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<!--=== Coding by CodingLab | www.codinglabweb.com === -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="style.css">
+     
+    <!----===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <title>Passenger Locator Form </title> 
+</head>
+<body>
+    <div class="body1">
+   
+    <!--Body of the form-->
+    <div class="container">
+        <header>Registration</header>
+
+        <form action="#">
+            <div class="form first">
+                <div class="details personal">
+                    <span class="title"><b> GENERAL INFORMATION</b></span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>FIRST NAME</label>
+                            <input type="text" placeholder="Enter your first name" class="firstname" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>DATE OF ARRIVAL</label>
+                            <input type="date" placeholder="Enter arrival date"class="arrivaldate" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>GENDER</label>
+                            <select required>
+                                <option disabled selected>Select Gender</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                                <option>Others</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>LAST NAME</label>
+                            <input type="text" placeholder="Enter last name"class="lastname" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>AIRLINE NAME</label>
+                            <select required>
+                                <option disabled selected>Select Airline Name</option>
+                                <option>Africa World Airways</option>
+                                <option>Air Cote d'Ivoire</option>
+                                <option>Air Peace</option>
+                                <option>ASKY Airline</option>
+                                <option>Air Senegal</option>
+                                <option>KLM</option>
+                                <option>Air France</option>
+                                <option>Brussels Airlines</option>
+                                <option>Trans Air</option>
+                                <option>Mauritania Airline</option>
+                                <option>Titan Airways</option>
+                                <option>Global Airline</option>
+                                <option>Kenya Airways</option>
+                                <option>Ethopian Airlines</option>
+                                <option>Emirates Airlines</option>
+                                <option>UN Flight</option>
+                                <option>FlyWestair</option>
+                                <option>Black Eagle Aviation</option>
+                                <option>International</option>
+                                <option>Embraer Phenom 100</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>FLIGHT NUMBER</label>
+                            <input type="number" placeholder="Enter your flight number"class="flightnumber" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="details ID">
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>PASSPORT NUMBER</label>
+                            <input type="number" placeholder="Enter passport number" class="passportnumber" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>PURPOSE OF TRAVEL</label>
+                            <select required>
+                                <option disabled selected>Select purpose of travel</option>
+                                <option>Studies</option>
+                                    <option>Medical</option>
+                                    <option>War</option>
+                                    <option>Business</option>
+                                    <option>Work</option>
+                                    <option>Conference</option>
+                                    <option>Holidays</option>
+                                    <option>Tourism</option>
+                                    <option>Legal resident/citizen</option>
+                                    <option>Business</option>
+                                    <option>Family visit</option>
+                                    <option>other</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>SEAT NUMBER</label>
+                            <input type="number" placeholder="Enter seat number" class="seatnumber" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>LAST TRANSIT POINT</label>
+                            <input type="text" placeholder="Enter last transit point" class="lasttransitpoint" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>COUNTRY VSITED (PASS ONE MONTH)</label>
+                            <select required>
+                                <option disabled selected>Select country visited</option>
+                                <option>Study</option>
+                                    <option>USA</option>
+                                    <option>Russia</option>
+                                    <option>Canada</option>
+                                    <option>England</option>
+                                    <option>Guinea</option>
+                                    <option>Conakry</option>
+                                    <option>other</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>PHONE NUMBER</label>
+                            <input type="number" placeholder="Enter phone number" required>
+                        </div>
+                        <div class="input-field">
+                            <label>HAVE YOU BEEN IN CHINA FOR THE PAST 21 DAYS</label>
+                            <select required>
+                                <option disabled selected></option>
+                                <option>Yes</option>
+                                    <option>No</option>
+                            </select>
+                        </div>
+                        <div class="input-field">
+                            <label>APPARTMENT NUMBER</label>
+                            <input type="number" placeholder="Enter appartment number" required>
+                        </div>
+                        <div class="input-field">
+                            <label>STATE / PROVINCE</label>
+                            <input type="text" placeholder="Enter state / province" required>
+                        </div>
+                        <div class="input-field">
+                            <label>HOTEL NAME IF ANY</label>
+                            <input type="TEXT" placeholder="Enter hotel name" required>
+                        </div>
+                    </div>
+
+                    <button class="nextBtn">
+                        <span class="btnText">Next</span>
+                        <i class="uil uil-navigator"></i>
+                    </button>
+                </div> 
+            </div>
+
+            <div class="form second">
+                <div class="details address">
+                    <span class="title">GENERAL INFORMATION</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>DO YOU HAVE ANY OF THE SIGNS AND SYMPTOMS?</label>
+                            <select required>
+                                <option disabled selected>Select Symptoms</option>
+                                <option>Fever</option>
+                                <option>Cough</option>
+                                <option>Difficult in breathing</option>
+                                <option>Body pain</option>
+                                <option>Others</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>PERMANENT PHONE NUMBER</label>
+                            <input type="number" placeholder="Enter permanent phone number" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>CITY</label>
+                            <input type="text" placeholder="Enter city name" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>COUNTRY</label>
+                            <input type="text" placeholder="Enter country name" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>NUMBER AND STREET NAME</label>
+                            <input type="text" placeholder="Enter number and street name" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>LEAVING LOCATION</label>
+                            <input type="number" placeholder="Enter leaving location name" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="details family">
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>PERMANENT ADDRESS</label>
+                            <input type="text" placeholder="Enter permanent address" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>ZIP/POSTAL CODE</label>
+                            <input type="text" placeholder="Enter zip / postal code name" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>ADDRESS IN SIERRA LEONE</label>
+                            <input type="text" placeholder="Enter address in Sierra Leone" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>CITY</label>
+                            <input type="text" placeholder="Enter city name" required>
+                        </div>
+                        <div class="emergency">
+                            <h3>EMERGENCY INFORMATION (SOMEONE WHO CAN BE REACHED DURING THE LAST 30 DAYS)</h3>
+                        </div>
+
+                        <div class="input-field">
+                            <label>FIRST NAME</label>
+                            <input type="text" placeholder="enter first name" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>LAST NAME</label>
+                            <input type="text" placeholder="enter last name" required>
+                        </div>
+                        <div class="input-field">
+                            <label>CITY</label>
+                            <input type="text" placeholder="enter last name" required>
+                        </div>
+                        <div class="input-field">
+                            <label>COUNTRY</label>
+                            <input type="text" placeholder="enter country name" required>
+                        </div>
+                        <div class="input-field">
+                            <label>MOBILE NUMBER</label>
+                            <input type="number" placeholder="enter mobile number" required>
+                        </div>
+                        <div class="input-field">
+                            <label>OTHER NUMBER</label>
+                            <input type="number" placeholder="enter other number" required>
+                        </div>
+                    </div>
+
+                    <div class="buttons">
+                        <div class="backBtn">
+                            <i class="uil uil-navigator"></i>
+                            <span class="btnText">Back</span>
+                        </div>
+                        
+                        <button class="sumbit">
+                            <span class="btnText">Submit</span>
+                            <i class="uil uil-navigator"></i>
+                        </button>
+                    </div>
+                </div> 
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</div>
+</body>
+</html>
